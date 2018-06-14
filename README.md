@@ -6,7 +6,7 @@ A platform which allows you to get information about next departure from spesifi
 To get started put `/custom_components/sensor/ruter.py` here:
 `<config directory>/custom_components/sensor/ruter.py`  
   
-Example configuration.yaml: 
+**Example configuration.yaml:**
 ```yaml
 sensor:
   destination: 'Sandvika (Bussterminal)' #Optional
