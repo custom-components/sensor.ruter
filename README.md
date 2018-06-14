@@ -9,20 +9,17 @@ To get started put `/custom_components/sensor/ruter.py` here:
 **Example configuration.yaml:**
 ```yaml
 sensor:
-  destination: 'Sandvika (Bussterminal)' #Optional
+  destination: 'Sandvika (Bussterminal)'
   platform: ruter
   stopid: 129302
 ```
 **Configuration variables::**  
-**destination**: null  
-**#**:   
-**Optional:**:   
-**platform**: null  
-**#**:   
-**Required:**:   
-**stopid**: null  
-**#**:   
-**Required:**:   
+**platform (Required)**: null  
+**stopid (Required)**: null  
+**destination (Optional)**: null  
+**platform (Required)**: null  
+**stopid (Required)**: null  
+**destination (Optional)**: null  
 #### Sample overview
 ![Sample overview](overview.png)
   
