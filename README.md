@@ -13,7 +13,7 @@ sensor:
   platform: ruter
   stopid: 129302
 ```
-**Configuration variables::**  
+**Configuration variables:**  
   
 key | description  
 :--- | :---  
