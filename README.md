@@ -17,9 +17,6 @@ sensor:
 **platform (Required)**: null  
 **stopid (Required)**: null  
 **destination (Optional)**: null  
-**platform (Required)**: null  
-**stopid (Required)**: null  
-**destination (Optional)**: null  
 #### Sample overview
 ![Sample overview](overview.png)
   
