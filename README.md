@@ -3,8 +3,7 @@
   
 A platform which allows you to get information about next departure from spesified stop.
   
-To get started:
-Put `/custom_components/sensor/ruter.py` here:
+To get started put `/custom_components/sensor/ruter.py` here:
 `<config directory>/custom_components/sensor/ruter.py`  
   
 Example configuration.yaml: 
