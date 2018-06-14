@@ -14,12 +14,12 @@ sensor:
   stopid: 129302
 ```
 **Configuration variables::**  
+  
 key | description  
 :--- | :---  
 **platform (Required)** | The platform name.  
 **stopid (Required)** | The ID of the stop you are monitoring.  
 **destination (Optional)** | The destination stop of the line you want to monitor.  
-|  
 #### Sample overview
 ![Sample overview](overview.png)
   
