@@ -1,10 +1,13 @@
 # custom_component to get info about next departures
-![Version](https://img.shields.io/badge/version-0.0.2-green.svg?style=for-the-badge)\
-A platform which allows you to get information about next departure from spesified stop.\
-To get started:\
-Put `/custom_components/sensor/ruter.py` here:\
+![Version](https://img.shields.io/badge/version-0.0.2-green.svg?style=for-the-badge)
+\
+A platform which allows you to get information about next departure from spesified stop.
+\
+To get started:
+\
+Put `/custom_components/sensor/ruter.py` here:
 `<config directory>/custom_components/sensor/ruter.py`  
-  
+\
 Example configuration.yaml: 
 ```yaml
 sensor:
@@ -13,8 +16,10 @@ sensor:
   stopid: 129302
 ```
 #### Sample overview
-![Sample overview](overview.png)\
-[Home-Assistant demo site.](https://ha-test-ruter.halfdecent.io)\
+![Sample overview](overview.png)
+\
+[Home-Assistant demo site.](https://ha-test-ruter.halfdecent.io)
+\
 This component is using the [Ruter reisapi API](http://reisapi.ruter.no/Help) to get the information.
  This component is only usefull for users living near Oslo, Norway that uses Ruter for transportation.
  To find the stopid go to https://ruter.no/reiseplanlegger/Stoppested and search for your stop.
