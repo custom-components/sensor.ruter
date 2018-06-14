@@ -13,13 +13,16 @@ sensor:
   platform: ruter
   stopid: 129302
 ```
-**Configuration variables::**
-**destination: 
-(Optional):**: 
-**platform: 
-(Required):**: 
-**stopid: 
-(Required):**: 
+**Configuration variables::**  
+**destination**: null  
+**#**:   
+**Optional:**:   
+**platform**: null  
+**#**:   
+**Required:**:   
+**stopid**: null  
+**#**:   
+**Required:**:   
 #### Sample overview
 ![Sample overview](overview.png)
   
