@@ -25,7 +25,7 @@ key | description
   
 [Home-Assistant demo site.](https://ha-test-ruter.halfdecent.io/)
   
-This component is using the [Ruter reisapi API](http://reisapi.ruter.no/Help) to get the information.
+This platform is using the [Ruter reisapi API](http://reisapi.ruter.no/Help) to get the information.
  This component is only usefull for users living near Oslo, Norway that uses Ruter for transportation.
  To find the stopid go to https://ruter.no/reiseplanlegger/Stoppested and search for your stop.
  in the url after you have searched there will be an ID right after the 'Stoppested/' in a format like this (129302), the numbers there is what you need to put in the `stopid:` config option.
