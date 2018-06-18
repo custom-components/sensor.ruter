@@ -30,7 +30,3 @@ This component is using the [Ruter reisapi API](http://reisapi.ruter.no/Help) to
  To find the stopid go to https://ruter.no/reiseplanlegger/Stoppested and search for your stop.
  in the url after you have searched there will be an ID right after the 'Stoppested/' in a format like this (129302), the numbers there is what you need to put in the `stopid:` config option.
  The `destionation:` can be used to filter the responses, the name must be exactly the same as on the ruter.no site.  
-push_github:  stage: deploy
-  script:
-    - curl -sL https://gitlab.com/ludeeus/toolbox/raw/master/CI-Scripts/push_to_public_repo/init.sh | bash -s github pip-packages  /root
-    - curl -sL https://gitlab.com/ludeeus/toolbox/raw/master/CI-Scripts/push_to_public_repo/push.sh | bash -s Europe/Oslo
