@@ -2,7 +2,7 @@
 ![Version](https://img.shields.io/badge/version-2.1.0-green.svg?style=for-the-badge) ![mantained](https://img.shields.io/maintenance/yes/2018.svg?style=for-the-badge)   
 A platform which allows you to get information about next departure from spesified stop.
   
-To get started put `/custom_components/sensor/ruter.py` here:
+To get started put `/custom_components/sensor/ruter.py` here:  
 `<config directory>/custom_components/sensor/ruter.py`  
   
 **Example configuration.yaml:**
