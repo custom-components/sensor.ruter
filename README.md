@@ -8,9 +8,6 @@ To get started put `/custom_components/sensor/ruter.py` here:
 **Example configuration.yaml:**
 ```yaml
 sensor:
-  platform: ruter
-  stopid: 129302
-  destination: 'Sandvika (Bussterminal)'
 ```
 **Configuration variables:**  
   
