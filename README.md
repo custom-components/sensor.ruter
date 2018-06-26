@@ -30,3 +30,5 @@ This platform is using the [Ruter reisapi API](http://reisapi.ruter.no/Help) to 
  To find the stopid go to https://ruter.no/reiseplanlegger/Stoppested and search for your stop.
  in the url after you have searched there will be an ID right after the 'Stoppested/' in a format like this (129302), the numbers there is what you need to put in the `stopid:` config option.
  The `destionation:` can be used to filter the responses, the name must be exactly the same as on the ruter.no site.  
+  
+Due to how  are importerd, it is normal to see a  error on first boot after adding this, to resolve it, restart Home-Assistant.
