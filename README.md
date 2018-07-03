@@ -1,7 +1,6 @@
 # custom_component to get info about next departures.
   
-![Version](https://img.shields.io/badge/version-component_version'
-'2.1.0-green.svg?style=for-the-badge) ![mantained](https://img.shields.io/maintenance/yes/2018.svg?style=for-the-badge)   
+![Version](https://img.shields.io/badge/version-2.1.0-green.svg?style=for-the-badge) ![mantained](https://img.shields.io/maintenance/yes/2018.svg?style=for-the-badge)   
 A platform which allows you to get information about next departure from spesified stop.
   
 To get started put `/custom_components/sensor/ruter.py` here:  
@@ -34,4 +33,4 @@ This platform is using the [Ruter reisapi API](http://reisapi.ruter.no/Help) to 
  The `destionation:` can be used to filter the responses, the name must be exactly the same as on the ruter.no site.  
   
 ***
-Due to how `custom_componentes` are importerd, it is normal to see a `ModuleNotFoundError` error on first boot after adding this, to resolve it, restart Home-Assistant.
+Due to how `custom_componentes` are loaded, it is normal to see a `ModuleNotFoundError` error on first boot after adding this, to resolve it, restart Home-Assistant.
