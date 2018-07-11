@@ -1,18 +1,19 @@
-# custom_component to get info about next departures.
-  
-[![Version](https://img.shields.io/badge/version-2.1.0-green.svg?style=for-the-badge)](#) [![mantained](https://img.shields.io/maintenance/yes/2018.svg?style=for-the-badge)](#) [![maintainer](https://img.shields.io/badge/maintainer-Joakim%20Sørensen%20%40ludeeus-blue.svg?style=for-the-badge)](#)   
+# custom_component to get info about next departures
+
 A platform which allows you to get information about next departure from spesified stop.
   
 To get started put `/custom_components/sensor/ruter.py` here:  
 `<config directory>/custom_components/sensor/ruter.py`  
   
 **Example configuration.yaml:**
+
 ```yaml
 sensor:
   platform: ruter
   stopid: 129302
   destination: 'Sandvika (Bussterminal)'
 ```
+
 **Configuration variables:**  
   
 key | description  
@@ -21,7 +22,8 @@ key | description
 **stopid (Required)** | The ID of the stop you are monitoring.  
 **destination (Optional)** | The destination stop of the line you want to monitor.  
   
-#### Sample overview
+## Sample overview
+
 ![Sample overview](overview.png)
   
 [Home-Assistant demo site.](https://ha-test-ruter.halfdecent.io/)
