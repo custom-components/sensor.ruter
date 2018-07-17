@@ -11,6 +11,8 @@ from homeassistant.helpers.entity import Entity
 import homeassistant.helpers.config_validation as cv
 from homeassistant.components.switch import (PLATFORM_SCHEMA)
 
+__version__ = '2.1.1'
+
 REQUIREMENTS = ['pyruter==0.0.4']
 
 CONF_STOPID = 'stopid'
@@ -26,7 +28,6 @@ SCAN_INTERVAL = timedelta(seconds=10)
 
 ICON = 'mdi:bus'
 COMPONENT_NAME = 'ruter'
-COMPONENT_VERSION = '2.1.0'
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
     vol.Required(CONF_STOPID): cv.string,
@@ -50,7 +51,7 @@ class RuterSensor(Entity):
         self._stopid = stopid
         self._defined_destination = destination
         self._component = COMPONENT_NAME
-        self._componentversion = COMPONENT_VERSION  
+        self._componentversion = __version__  
         self.update()
 
 
