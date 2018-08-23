@@ -36,3 +36,7 @@ This platform is using the [Ruter reisapi API](http://reisapi.ruter.no/Help) to 
   
 ***
 Due to how `custom_componentes` are loaded, it is normal to see a `ModuleNotFoundError` error on first boot after adding this, to resolve it, restart Home-Assistant.
+
+***
+
+[buymeacoffee.com](https://www.buymeacoffee.com/ludeeus)
