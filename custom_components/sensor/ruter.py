@@ -1,7 +1,8 @@
 """
 A component which allows you to get information about next departure from spesified stop.
+
 For more details about this component, please refer to the documentation at
-https://github.com/HalfDecent/HA-Custom_components/ruter
+https://github.com/custom-components/sensor.ruter
 """
 import logging
 import dateutil.parser
