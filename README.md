@@ -1,6 +1,6 @@
 # custom_component to get info about next departures
 
-A platform which allows you to get information about next departure from spesified stop.
+A sensor platform that gives you information about next departures.
   
 To get started put `/custom_components/sensor/ruter.py` here:  
 `<config directory>/custom_components/sensor/ruter.py`  
@@ -21,12 +21,11 @@ key | description
 **platform (Required)** | The platform name.  
 **stopid (Required)** | The ID of the stop you are monitoring.  
 **destination (Optional)** | The destination stop of the line you want to monitor.  
+**numer_of_departures (Optional)** | The number of future departures you want a sensor for. defaults to 1.
   
 ## Sample overview
 
 ![Sample overview](overview.png)
-  
-[Home-Assistant demo site.](https://ha-test-ruter.halfdecent.io/)
   
 This platform is using the [Ruter reisapi API](http://reisapi.ruter.no/Help) to get the information.
  This component is only usefull for users living near Oslo, Norway that uses Ruter for transportation.
