@@ -1,4 +1,4 @@
-# custom_component to get info about next departures
+# sensor.ruter [![Build Status](https://travis-ci.com/custom-components/sensor.ruter.svg?branch=master)](https://travis-ci.com/custom-components/sensor.ruter)
 
 A sensor platform that gives you information about next departures.
   

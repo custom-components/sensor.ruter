@@ -45,7 +45,7 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
     numer_of_departures = config.get(CONF_DEPARTURES)
     if numer_of_departures > 1:
         index = 1
-        while index < (numer_of_departures +1):
+        while index < (numer_of_departures + 1):
             sensors.append(RuterSensor(stopid, destination, index))
             index = index + 1
         add_devices(sensors)
