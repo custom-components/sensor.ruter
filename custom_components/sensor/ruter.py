@@ -14,7 +14,7 @@ from homeassistant.components.switch import (PLATFORM_SCHEMA)
 
 __version__ = '3.0.0'
 
-REQUIREMENTS = ['pyruter==0.1.0']
+REQUIREMENTS = ['pyruter==0.1.1']
 
 CONF_STOPID = 'stopid'
 CONF_DESTINATION = 'destination'
